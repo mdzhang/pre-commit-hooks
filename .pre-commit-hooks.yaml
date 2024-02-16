@@ -1,0 +1,5 @@
+- id: check-all-codeowners-globs-used
+  name: check CODEOWNERS
+  language: system
+  entry: ./scripts/codeowner-lint.sh
+  files: .github/CODEOWNERS
